@@ -8,12 +8,15 @@ def password_generator(length=12,character=string.ascii_letters + string.digits 
 
 option=input("Do you want to generate a password (Yes/No) : ")
 
-# using control structure
-if option=="Yes":
+# using control structure\
+try:
+    if option=="Yes":
     
-    password_generator()
-elif option=="No":
-    print("Program end") 
-else:    
-    print("Invalid input,please enter (Yes/No) :")  
+     password_generator()
+    elif option=="No":
+     print("Program end") 
+    else:    
+      print("Invalid input,please enter (Yes/No) :")
+except ValueError:
+    print("invalid entering please try again")
          
