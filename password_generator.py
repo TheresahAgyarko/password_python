@@ -15,8 +15,6 @@ try:
      password_generator()
     elif option=="No":
      print("Program end") 
-    else:    
-      print("Invalid input,please enter (Yes/No) :")
 except ValueError:
-    print("invalid entering please try again")
+    print("invalid input please enter (Yes/No)")
          
