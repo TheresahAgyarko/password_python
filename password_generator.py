@@ -8,7 +8,7 @@ def password_generator(length=12,character=string.ascii_letters + string.digits 
 
 option=input("Do you want to generate a password (Yes/No) : ")
 
-# using control structure\
+# using control structure
 try:
     if option=="Yes":
     
