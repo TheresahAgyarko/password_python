@@ -1,6 +1,6 @@
 import string
 import random
- 
+
 
 # using function
 def password_generator(length=12,character=string.ascii_letters + string.digits + string.punctuation): #function
@@ -12,9 +12,8 @@ option=input("Do you want to generate a password (Yes/No) : ")
 try:
     if option=="Yes":
     
-     password_generator()
+        password_generator()
     elif option=="No":
-     print("Program end") 
+        print("Program end") 
 except ValueError:
     print("invalid input please enter (Yes/No)")
-         
